@@ -1,9 +1,9 @@
 package data;
 
 public class Person {
-    protected String firstName;
-    protected String lastName;
-    protected Address address;
+    private String firstName;
+    private String lastName;
+    private Address address;
 
     public Person(String firstName, String lastName, Address address) {
         this.firstName = firstName;
